@@ -1,0 +1,57 @@
+body {
+
+background-color: rgb(0, 0, 0);
+
+}
+
+
+h1 {
+  font-family: helvetica;
+  font-size: 3vw;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+span {
+color: rgb(255, 0, 0);
+width: 100%;
+
+}
+
+p {
+  font-family: calibri;
+  line-height: 10vw;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+
+text-align:center;
+background: linear-gradient(to right, hwb(289 0% 0%), #ae00ff, #ff0000 80%);
+background-size: 200% auto;
+color: rgb(255, 255, 255);
+background-clip: text;
+text-fill-color: transparent;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: shine 3s linear infinite;
+}
+
+
+
+.colorful-text {
+  text-align:center;
+  font-size: 2em;
+  background: linear-gradient(to right, #ff0000, #00aae7, #33ff00 80%);
+  background-size: 200% auto;
+  color: rgb(255, 255, 255);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s linear infinite;
+}
+@keyframes shine {
+  to {
+    background-position: 200% center;
+  }
+}
